@@ -1,5 +1,5 @@
 
-*.cpy
+*.pyc
 bin/
 *.log
 *.txt
