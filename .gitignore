@@ -1,2 +1,5 @@
 
 *.cpy
+bin/
+*.log
+*.txt
