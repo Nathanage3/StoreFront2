@@ -1,0 +1,8 @@
+*.cpy
+*.txt
+*.lock
+Pipefile
+myvenv/bin/*
+myvenv/lib64/*
+myvenv/share/*
+*.cfg
