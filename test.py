@@ -1,3 +1,1 @@
-new_line
-hello
-World
+print("A change from")
