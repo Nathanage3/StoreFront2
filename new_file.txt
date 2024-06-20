@@ -1,1 +1,1 @@
-A change from a master.
+A change from a new branch new_bugfix.
