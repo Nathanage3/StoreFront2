@@ -16,7 +16,6 @@ cart_router = routers.NestedDefaultRouter(router, 'carts', lookup='cart')
 cart_router.register('items', views.CartItemViewSet, basename='cart-items')
 
 
-
 # Create a nested router for ReviewViewSet under products/<product_pk>/reviews/
 products_router = routers.NestedDefaultRouter(router, 'products', lookup='product')
 products_router.register('images', views.ProductImageViewSet, basename='product-images')
