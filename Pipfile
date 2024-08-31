@@ -1,19 +1,26 @@
 [[source]]
-name = "pypi"
 url = "https://pypi.python.org/simple"
 verify_ssl = true
+name = "pypi"
 
 [packages]
-asgiref = "==3.8.1"
-"backports.zoneinfo" = {version = "==0.2.1", markers = "python_version < '3.9'"}
-django = "==4.2.13"
-"django-filter" = "==24.2"
-djangorestframework = "==3.15.1"
-"drf-nested-routers" = "==0.94.1"
-mysqlclient = "==2.2.4"
-sqlparse = "==0.5.0"
-"typing-extensions" = {version = "==4.12.2", markers = "python_version < '3.11'"}
+python-decouple = "*"
+django-cors-headers = "*"
+django-templated-mail = "*"
+django = "==4.2"
+redis = "*"
+celery = "*"
+flower = "*"
+pytest = "*"
+geventhttpclient = "==2.0.12"
+django-silk = "*"
+django-redis = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-django = "*"
+locust = "*"
+django-silk = "*"
 
 [requires]
 python_version = "3.8"
-

@@ -6,6 +6,6 @@ class ProductFilter(FilterSet):
   class Meta:
     model = Product
     fields = {
-      'collection_id': ['exact'],
-      'unit_price': ['gt', 'lt']
-    }
+      'collection_id': ['exact'], # exact number no a float
+      'unit_price': ['gt', 'lt'],  # For a range including float
+    } 
